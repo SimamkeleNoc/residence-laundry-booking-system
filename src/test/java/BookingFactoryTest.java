@@ -1,11 +1,10 @@
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
-
 import za.ac.cput.domain.Booking;
 import za.ac.cput.factory.BookingFactory;
 import java.time.LocalDate;
 
- class BookingTest {
+ class BookingFactoryTest {
 
      @Test
      @DisplayName("Test Booking format")
@@ -33,6 +32,4 @@ import java.time.LocalDate;
 
          assertNull(booking);
      }
-
-
 }
