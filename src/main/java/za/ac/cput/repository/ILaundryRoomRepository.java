@@ -1,4 +1,6 @@
 package za.ac.cput.repository;
 
-public interface ILaundryRoomRepository {
+import za.ac.cput.domain.LaundryRoom;
+
+public interface ILaundryRoomRepository extends IRepository<LaundryRoom, String>{
 }
