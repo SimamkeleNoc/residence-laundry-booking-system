@@ -9,7 +9,6 @@ package za.ac.cput.factory;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.LaundryMachine;
 import za.ac.cput.domain.MachineStatus;
-import za.ac.cput.factory.LaundryMachineFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -39,4 +38,6 @@ class LaundryMachineFactoryTest {
 
         assertNull(machine);
     }
+
+
 }
